@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint FlowLayoutCode.podspec' to ensure this is a
+#  Be sure to run `pod spec lint FlowLayout.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FlowLayoutCode"
+  s.name         = "FlowLayout"
   s.version      = "0.0.1"
-  s.summary      = “瀑布流的一个简单封装，使用起来和tableview的代理方法一样.”
+  s.summary      = “瀑布流的封装”
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "https://github.com/OneWang/FlowLayout"
+  s.homepage     = "http://EXAMPLE/FlowLayout"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { “wangqingfei” => “1490235571@qq.com” }
-  # Or just: s.author    = “wangqingfei”
-  # s.authors            = { “wangqingfei” => “1490235571@qq.com” }
+  s.author             = { "wangqingfei" => "wangqingfei@exinlei.com" }
+  # Or just: s.author    = "wangqingfei"
+  # s.authors            = { "wangqingfei" => "wangqingfei@exinlei.com" }
   # s.social_media_url   = "http://twitter.com/wangqingfei"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/FlowLayoutCode.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://EXAMPLE/FlowLayout.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
