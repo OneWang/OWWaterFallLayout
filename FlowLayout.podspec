@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "FlowLayout"
   s.version      = "0.0.1"
-  s.summary      = “瀑布流的封装”
+  s.summary      = "FlowLayout."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+			瀑布流的封装,使用简单快捷；类似tableview的代理方法；
                    DESC
 
-  s.homepage     = "http://EXAMPLE/FlowLayout"
+  s.homepage     = "https://github.com/OneWang/FlowLayout"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/FlowLayout.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/OneWang/FlowLayout.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
