@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04ACF7AF1F611B7800B8012D /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACF7AE1F611B7800B8012D /* WaterFallLayout.m */; };
 		0A52739C1C8FB492009F0A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52739B1C8FB492009F0A5F /* main.m */; };
 		0A52739F1C8FB492009F0A5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52739E1C8FB492009F0A5F /* AppDelegate.m */; };
 		0A5273A21C8FB492009F0A5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5273A11C8FB492009F0A5F /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		0A5273AA1C8FB492009F0A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5273A81C8FB492009F0A5F /* LaunchScreen.storyboard */; };
 		0A5273B51C8FB492009F0A5F /* CustomUICollectionViewLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5273B41C8FB492009F0A5F /* CustomUICollectionViewLayoutTests.m */; };
 		0A5273C01C8FB492009F0A5F /* CustomUICollectionViewLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5273BF1C8FB492009F0A5F /* CustomUICollectionViewLayoutUITests.m */; };
-		0A5273CF1C8FB553009F0A5F /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5273CE1C8FB553009F0A5F /* WaterFallLayout.m */; };
 		0A5273D31C8FB77C009F0A5F /* ShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5273D11C8FB77C009F0A5F /* ShopCell.m */; };
 		0A5273D41C8FB77C009F0A5F /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5273D21C8FB77C009F0A5F /* ShopCell.xib */; };
 		0A5273D71C8FB929009F0A5F /* ShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5273D61C8FB929009F0A5F /* ShopModel.m */; };
@@ -76,6 +76,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04ACF7AD1F611B7800B8012D /* WaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaterFallLayout.h; path = Class/WaterFallLayout.h; sourceTree = "<group>"; };
+		04ACF7AE1F611B7800B8012D /* WaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaterFallLayout.m; path = Class/WaterFallLayout.m; sourceTree = "<group>"; };
 		0A5273971C8FB492009F0A5F /* CustomUICollectionViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUICollectionViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A52739B1C8FB492009F0A5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A52739D1C8FB492009F0A5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,8 +94,6 @@
 		0A5273BB1C8FB492009F0A5F /* CustomUICollectionViewLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomUICollectionViewLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5273BF1C8FB492009F0A5F /* CustomUICollectionViewLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUICollectionViewLayoutUITests.m; sourceTree = "<group>"; };
 		0A5273C11C8FB492009F0A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A5273CD1C8FB553009F0A5F /* WaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
-		0A5273CE1C8FB553009F0A5F /* WaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallLayout.m; sourceTree = "<group>"; };
 		0A5273D01C8FB77C009F0A5F /* ShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCell.h; sourceTree = "<group>"; };
 		0A5273D11C8FB77C009F0A5F /* ShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCell.m; sourceTree = "<group>"; };
 		0A5273D21C8FB77C009F0A5F /* ShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCell.xib; sourceTree = "<group>"; };
@@ -235,8 +235,8 @@
 				0A5273D21C8FB77C009F0A5F /* ShopCell.xib */,
 				0A5273D51C8FB929009F0A5F /* ShopModel.h */,
 				0A5273D61C8FB929009F0A5F /* ShopModel.m */,
-				0A5273CD1C8FB553009F0A5F /* WaterFallLayout.h */,
-				0A5273CE1C8FB553009F0A5F /* WaterFallLayout.m */,
+				04ACF7AD1F611B7800B8012D /* WaterFallLayout.h */,
+				04ACF7AE1F611B7800B8012D /* WaterFallLayout.m */,
 				0A5273A31C8FB492009F0A5F /* Main.storyboard */,
 				0A5273A61C8FB492009F0A5F /* Assets.xcassets */,
 				0A5273A81C8FB492009F0A5F /* LaunchScreen.storyboard */,
@@ -513,7 +513,6 @@
 				0A5274421C8FB9F4009F0A5F /* UIButton+WebCache.m in Sources */,
 				0A5274401C8FB9F4009F0A5F /* SDWebImageManager.m in Sources */,
 				0A5274291C8FB9F4009F0A5F /* MJIvar.m in Sources */,
-				0A5273CF1C8FB553009F0A5F /* WaterFallLayout.m in Sources */,
 				0A5274331C8FB9F4009F0A5F /* MJRefreshConst.m in Sources */,
 				0A52743E1C8FB9F4009F0A5F /* SDWebImageDownloader.m in Sources */,
 				0A5273A21C8FB492009F0A5F /* ViewController.m in Sources */,
@@ -546,6 +545,7 @@
 				0A5273D31C8FB77C009F0A5F /* ShopCell.m in Sources */,
 				0A52739C1C8FB492009F0A5F /* main.m in Sources */,
 				0A5274411C8FB9F4009F0A5F /* SDWebImagePrefetcher.m in Sources */,
+				04ACF7AF1F611B7800B8012D /* WaterFallLayout.m in Sources */,
 				0A5274391C8FB9F4009F0A5F /* MKAnnotationView+WebCache.m in Sources */,
 				0A5274431C8FB9F4009F0A5F /* UIImage+GIF.m in Sources */,
 				0A52742E1C8FB9F4009F0A5F /* NSObject+MJCoding.m in Sources */,
