@@ -1,0 +1,6 @@
+framework module Pods_OWWaterFallLayout_Tests {
+  umbrella header "Pods-OWWaterFallLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
