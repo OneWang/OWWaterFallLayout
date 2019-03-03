@@ -7,7 +7,7 @@
 //
 
 #import "OWViewController.h"
-#import "WaterFallLayout.h"
+#import "OWWaterFallLayout.h"
 #import "ShopCell.h"
 #import "ShopModel.h"
 #import <MJExtension/MJExtension.h>
@@ -18,7 +18,7 @@
 
 @interface OWViewController ()<UICollectionViewDataSource,
                                UICollectionViewDelegate,
-                               WaterFallLayoutDelegate>
+                               OWWaterFallLayoutDelegate>
 
 @property (weak, nonatomic) UICollectionView *collectionView;
 @property (strong, nonatomic) NSMutableArray *shopsArray;
@@ -38,7 +38,7 @@ static NSString * const ID = @"shop";
     [self.shopsArray addObjectsFromArray:shopArray];
     
     //2.创建collectionview
-    WaterFallLayout *layout = [[WaterFallLayout alloc] init];
+    OWWaterFallLayout *layout = [[OWWaterFallLayout alloc] init];
     layout.delegate = self;
     layout.sectionInset = UIEdgeInsetsMake(10, 20, 30, 40);
     layout.columnMargin = 30;
@@ -80,18 +80,18 @@ static NSString * const ID = @"shop";
 }
 
 #pragma mark WaterFallLayoutDelegate
-- (CGFloat)waterFallLayout:(WaterFallLayout *)waterFallLayout heightForWidth:(CGFloat)width atIndexPath:(NSIndexPath *)indexPath{
+- (CGFloat)waterFallLayout:(OWWaterFallLayout *)waterFallLayout heightForWidth:(CGFloat)width atIndexPath:(NSIndexPath *)indexPath{
     ShopModel *shop = self.shopsArray[indexPath.item];
     return shop.h / shop.w * width;
 }
 
 /**  collectionView  headerView */
-- (CGSize)waterflowLayout:(WaterFallLayout *)waterflowLayout sectionHeaderAtIndexPath:(NSIndexPath *)indexPath {
+- (CGSize)waterflowLayout:(OWWaterFallLayout *)waterflowLayout sectionHeaderAtIndexPath:(NSIndexPath *)indexPath {
     return CGSizeMake(K_Screen_Width, 60);
 }
 
 /**  collectionView  footerView */
-- (CGSize)waterflowLayout:(WaterFallLayout *)waterflowLayout sectionFooterAtIndexPath:(NSIndexPath *)indexPath {
+- (CGSize)waterflowLayout:(OWWaterFallLayout *)waterflowLayout sectionFooterAtIndexPath:(NSIndexPath *)indexPath {
     return CGSizeMake(K_Screen_Width, 40);
 }
 

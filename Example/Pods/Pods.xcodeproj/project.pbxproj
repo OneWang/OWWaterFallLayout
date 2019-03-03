@@ -116,7 +116,7 @@
 		BE5BC012A137B91FC3DDD294657F155A /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B121CC1C79486F57007D9C180AFE0D /* SDAnimatedImageRep.m */; };
 		C1E0FBE006750CDE25577448C04EF472 /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DD39428A49A7F17BD9177E4B7D5F53 /* UIImage+MemoryCacheCost.m */; };
 		C2384997988847ADC647BAEC8659288A /* Pods-OWWaterFallLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40551ED39C84FA8F784DC675EAFC8997 /* Pods-OWWaterFallLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4B333BC31292C454C1A1DE4B48578F5 /* WaterFallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 46541E0EDE2D66DE3E195B07A60E7823 /* WaterFallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B333BC31292C454C1A1DE4B48578F5 /* OWWaterFallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 46541E0EDE2D66DE3E195B07A60E7823 /* OWWaterFallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C50E79423D4462C039B4D9475B832522 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F94378F556B214A55DDCB4B5521887 /* SDWebImageCoderHelper.m */; };
 		C7FF1110C2B86F55C8574597FF4A4921 /* Pods-OWWaterFallLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BED690FEED81583969CEA2BBE827DDD /* Pods-OWWaterFallLayout_Tests-dummy.m */; };
 		CB0117CBE7ABB69CB09047A4B82E1896 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A421A8529FE52FA27D07259FACAC71 /* UIImage+GIF.m */; };
@@ -125,7 +125,7 @@
 		CE6BABABF726186E7EAC4D7E118DA2CA /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AC41566928A508D4A7008161CAED90 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D02DEBC241C24DEEFDA13C355197A2FB /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F353CB964C333DBCC0B66ED2B069103D /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0E7D5B865722A25EC7D91B0FAD8A6CD /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED43D8CA9B944D59EE42E487F47BE0D /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3C7ACEC66F3ED96686F6A62C8447ACF /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AF2F61855B492E2E8515F07BB8B14C /* WaterFallLayout.m */; };
+		D3C7ACEC66F3ED96686F6A62C8447ACF /* OWWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AF2F61855B492E2E8515F07BB8B14C /* OWWaterFallLayout.m */; };
 		D46545D206874E3A223372C84F1EA73E /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B605DD34CD0373DB841B4C6DCB4839 /* MJRefreshAutoFooter.m */; };
 		D66E78D63935A98894E702D922AA8B91 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A658F849C7C36242651D0405550299 /* MJRefreshBackGifFooter.m */; };
 		D68D4C4A2D8BE74B7557CD762A26E531 /* Pods-OWWaterFallLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE014437EFDB2BAA73A383164C92957 /* Pods-OWWaterFallLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -223,7 +223,7 @@
 		12D72ED34B8524FC4A09BF9F7C0ECC86 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
 		1359B4F0FF6D994CD85AE99BFAA7DEA6 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
 		1E7C95C86E3994F35F4D919039EB8B00 /* Pods-OWWaterFallLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OWWaterFallLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		20245CE137496CAE562A2449DD584403 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20245CE137496CAE562A2449DD584403 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		204AAAC230BC6B3D2FB6A3C44C41043D /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		2097BB6E41662AC062F4928F8B39DA2F /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
 		20C3B523AF8F73A0D2E189E1DA9CB0BE /* Pods-OWWaterFallLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OWWaterFallLayout_Tests.modulemap"; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		35128904FE249769A18582EA2F882945 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 		354B6E8645A3B65F8524E4B37B6961BF /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
 		3625EC5F7DEA13D7C99B8D88CCC68427 /* Pods-OWWaterFallLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OWWaterFallLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		363D522680BB36483CE9A2544567CB90 /* Pods_OWWaterFallLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OWWaterFallLayout_Example.framework; path = "Pods-OWWaterFallLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		363D522680BB36483CE9A2544567CB90 /* Pods_OWWaterFallLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWWaterFallLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38231397E45CBC2AA6DCA7AAC95756C8 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		3E00AA5B21C95AC3895D2DA0C5757679 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		40551ED39C84FA8F784DC675EAFC8997 /* Pods-OWWaterFallLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OWWaterFallLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -252,7 +252,7 @@
 		43B121CC1C79486F57007D9C180AFE0D /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
 		43F94378F556B214A55DDCB4B5521887 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
 		45A658F849C7C36242651D0405550299 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		46541E0EDE2D66DE3E195B07A60E7823 /* WaterFallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaterFallLayout.h; path = OWWaterFallLayout/Classes/WaterFallLayout.h; sourceTree = "<group>"; };
+		46541E0EDE2D66DE3E195B07A60E7823 /* OWWaterFallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OWWaterFallLayout.h; path = OWWaterFallLayout/Classes/OWWaterFallLayout.h; sourceTree = "<group>"; };
 		48D796F2BD9A681C8737CDF42FDD6C13 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
 		49042C5756F898194A171FE62DD6CC08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4BE744CC3E2A1D0B16C6AE3317251157 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 		53DD39428A49A7F17BD9177E4B7D5F53 /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
 		54FCAF71C94A737BB9ED15CEC59D0AAD /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
 		55FA262FD17B555058408DC67E72465E /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		588F03B441B9579C6A7D5BB8F175339F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		588F03B441B9579C6A7D5BB8F175339F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		58BB799FAF432ED116B169D9FA988641 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		590C511AA1EAC2685C2936C6797D3CC3 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		59EB4FCDEE62D39FEA00066C03A407E7 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
@@ -290,7 +290,7 @@
 		7AAA641CABF11EAA328CB8737F0EB3B9 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		7C2C365666BD71A12F8C61B2D7896DAC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		7C38EBC9B9480D9716C35572D4B9A76D /* Pods-OWWaterFallLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OWWaterFallLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D279EF65A017C0BA3657B566EC24DC0 /* Pods_OWWaterFallLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OWWaterFallLayout_Tests.framework; path = "Pods-OWWaterFallLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D279EF65A017C0BA3657B566EC24DC0 /* Pods_OWWaterFallLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWWaterFallLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DADED44AFB7114C7D12A93526741571 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		7F0C667058A93AA26FB301F308DE5BD1 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		7FDD6CB95625DD40E1F57807C029C2B8 /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
@@ -314,12 +314,12 @@
 		8EE014437EFDB2BAA73A383164C92957 /* Pods-OWWaterFallLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OWWaterFallLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		9053191D4EE68155FE373DF3BEBC374B /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
 		92AB97C73ADD99FD65A57D4F177EF51C /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		943CA8FEB1D097C8E39205DE0A261654 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
 		9443D35BB7AAE22EAC7DF7AD7856E367 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		955E761235DFE4A247A2E1757A0FBA98 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		97A421A8529FE52FA27D07259FACAC71 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
-		98AF2F61855B492E2E8515F07BB8B14C /* WaterFallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WaterFallLayout.m; path = OWWaterFallLayout/Classes/WaterFallLayout.m; sourceTree = "<group>"; };
+		98AF2F61855B492E2E8515F07BB8B14C /* OWWaterFallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OWWaterFallLayout.m; path = OWWaterFallLayout/Classes/OWWaterFallLayout.m; sourceTree = "<group>"; };
 		9910491563E2A276A4ED72C2CF9200D7 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
 		99CE576752410BDC65BC8D6314AEA332 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		9CFE76BB78A4C0348AA2CC30B4352AE2 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
@@ -341,9 +341,9 @@
 		B892337EA887BA5EF052436FC31DCB5E /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		BCD7CA965057259BD988B5F71DB7A926 /* Pods-OWWaterFallLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OWWaterFallLayout_Tests-resources.sh"; sourceTree = "<group>"; };
 		BEC7EE8E41B746800F378AA12C841A30 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
-		C1746DB20B92C9EE72757FF44910E052 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1746DB20B92C9EE72757FF44910E052 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5917E8DF30C16B3D742079A21669207 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
-		C71E0A4952EF696C67E3C4CA5EB4142A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C71E0A4952EF696C67E3C4CA5EB4142A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C794365E6DF990A3DFB0CC7FE0BD8846 /* OWWaterFallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OWWaterFallLayout-dummy.m"; sourceTree = "<group>"; };
 		C875135A366E64AD9419C85C2DA8426D /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		C9E21D9969856D1AB1C7C58B4B729847 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
@@ -375,7 +375,7 @@
 		EA8090A85C9281116C953CEF081E1608 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		EC9E3605CA8B1ED484987744AFD63541 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE4F986DE5FD44B6FD2CAC233A238BC /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
-		EF99DDA30923673E22CE7B7A624BE32D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF99DDA30923673E22CE7B7A624BE32D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09269BFED1944255FB8C21791AC151A /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		F1471DA0AAD8509278F4B9BBC431311F /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 		F353CB964C333DBCC0B66ED2B069103D /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
@@ -383,10 +383,10 @@
 		F5725F5A8C4F5E90B19EB509503D3438 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66A6F56AF00F167F4F94ECC688AD5D1 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		F6AFE9EA4AB60834D5F077415B381E88 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
-		F959D3F8EE69916CF8A4FD0A00AB0738 /* OWWaterFallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OWWaterFallLayout.framework; path = OWWaterFallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959D3F8EE69916CF8A4FD0A00AB0738 /* OWWaterFallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OWWaterFallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C6EF68030144B9D26FC24422B69536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FA0BD11811724E46ECF1363E43CC129C /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
-		FB2277120E8AA5740CFB1A26FF9FD83E /* OWWaterFallLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OWWaterFallLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB2277120E8AA5740CFB1A26FF9FD83E /* OWWaterFallLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OWWaterFallLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FBEB57753497EADFA1DBB42C4AFB7F28 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -605,7 +605,6 @@
 				8C16CEA48C1358F3516DB2375AA090F0 /* NSString+MJExtension.m */,
 				3698A397133EDF8BC9CF38254677B59E /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -679,7 +678,6 @@
 				8857ABB1483CA7699C36510E6F51828E /* Resources */,
 				519051642F9C352497D763C17A390A36 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -743,8 +741,8 @@
 		DF9A5FC45D47A57B9C6E20A49926DD62 /* OWWaterFallLayout */ = {
 			isa = PBXGroup;
 			children = (
-				46541E0EDE2D66DE3E195B07A60E7823 /* WaterFallLayout.h */,
-				98AF2F61855B492E2E8515F07BB8B14C /* WaterFallLayout.m */,
+				46541E0EDE2D66DE3E195B07A60E7823 /* OWWaterFallLayout.h */,
+				98AF2F61855B492E2E8515F07BB8B14C /* OWWaterFallLayout.m */,
 				0F1F4F2EA652E166279CF5DF83131C42 /* Pod */,
 				69BFB13D0A702062B28212C1AED36AD1 /* Support Files */,
 			);
@@ -767,7 +765,6 @@
 				38A9BD58FE40AF6F68AD8C08CF79DFCF /* Core */,
 				FEEE796538BF609C3038FF4FE21FD7B2 /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -837,7 +834,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16FF8C37097D31007A723501BAE5495C /* OWWaterFallLayout-umbrella.h in Headers */,
-				C4B333BC31292C454C1A1DE4B48578F5 /* WaterFallLayout.h in Headers */,
+				C4B333BC31292C454C1A1DE4B48578F5 /* OWWaterFallLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1162,7 +1159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				092C3AC63295D8DA39E532E4FFEB6672 /* OWWaterFallLayout-dummy.m in Sources */,
-				D3C7ACEC66F3ED96686F6A62C8447ACF /* WaterFallLayout.m in Sources */,
+				D3C7ACEC66F3ED96686F6A62C8447ACF /* OWWaterFallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,14 @@
 //
-//  WaterFallLayout.m
+//  OWWaterFallLayout.m
 //  CustomUICollectionViewLayout
 //
 //  Created by LI on 16/3/9.
 //  Copyright © 2016年 LI. All rights reserved.
 //  瀑布流重定义
 
-#import "WaterFallLayout.h"
+#import "OWWaterFallLayout.h"
 
-@interface WaterFallLayout ()
+@interface OWWaterFallLayout ()
 
 /** 这个字典用来存储每一列最大的Y值(每一列的高度) */
 @property (strong, nonatomic) NSMutableDictionary<NSString *,NSNumber *> *maxYDict;
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation WaterFallLayout
+@implementation OWWaterFallLayout
 
 - (instancetype)init{
     if (self = [super init]) {
