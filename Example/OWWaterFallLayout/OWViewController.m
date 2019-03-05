@@ -79,7 +79,7 @@ static NSString * const ID = @"shop";
     });
 }
 
-#pragma mark WaterFallLayoutDelegate
+#pragma mark OWWaterFallLayoutDelegate
 - (CGFloat)waterFallLayout:(OWWaterFallLayout *)waterFallLayout heightForWidth:(CGFloat)width atIndexPath:(NSIndexPath *)indexPath{
     ShopModel *shop = self.shopsArray[indexPath.item];
     return shop.h / shop.w * width;
