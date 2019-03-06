@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OWWaterFallLayout'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一个自定义的瀑布流，可以d添加头尾视图'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'MJExtension'
-  s.dependency 'MJRefresh'
-  s.dependency 'SDWebImage'
+  # s.dependency 'MJExtension'
+  # s.dependency 'MJRefresh'
+  # s.dependency 'SDWebImage'
 end
