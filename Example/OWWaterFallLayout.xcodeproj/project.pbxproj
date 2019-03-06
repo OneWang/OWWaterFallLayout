@@ -76,7 +76,7 @@
 		B6C35E1785B9BEB206077635 /* Pods-OWWaterFallLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWWaterFallLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWWaterFallLayout_Tests/Pods-OWWaterFallLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3AB98AAFC44C83DF660B1BF /* Pods_OWWaterFallLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWWaterFallLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB71E185EE65B4EAB255BA48 /* Pods-OWWaterFallLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWWaterFallLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWWaterFallLayout_Example/Pods-OWWaterFallLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F5A10E7214C911BDDC08A42A /* OWWaterFallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OWWaterFallLayout.podspec; path = ../OWWaterFallLayout.podspec; sourceTree = "<group>"; };
+		F5A10E7214C911BDDC08A42A /* OWWaterFallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OWWaterFallLayout.podspec; path = ../OWWaterFallLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
