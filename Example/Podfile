@@ -5,6 +5,9 @@ platform :ios, '8.0'
 target 'OWWaterFallLayout_Example' do
   pod 'OWWaterFallLayout', :path => '../'
 
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
   target 'OWWaterFallLayout_Tests' do
     inherit! :search_paths
 

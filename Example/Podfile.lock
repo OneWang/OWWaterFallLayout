@@ -1,16 +1,16 @@
 PODS:
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.7)
-  - OWWaterFallLayout (0.1.0):
-    - MJExtension
-    - MJRefresh
-    - SDWebImage
+  - OWWaterFallLayout (0.1.0)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
 
 DEPENDENCIES:
+  - MJExtension
+  - MJRefresh
   - OWWaterFallLayout (from `../`)
+  - SDWebImage
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -25,9 +25,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
-  OWWaterFallLayout: 8800bf3bb7caab94b9a28d75be9dbdab6be4b82c
+  OWWaterFallLayout: b14fed38dea3e2182d70a1ac9d8804a677e13411
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
 
-PODFILE CHECKSUM: 0460f9790328d92018d735ee7816617084358280
+PODFILE CHECKSUM: 21a183b00602e2416b6fe40cdfd89c527bfa81ff
 
 COCOAPODS: 1.5.0

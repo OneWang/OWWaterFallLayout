@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "WaterFallLayout.h"
+#import "OWWaterFallLayout.h"
 
 FOUNDATION_EXPORT double OWWaterFallLayoutVersionNumber;
 FOUNDATION_EXPORT const unsigned char OWWaterFallLayoutVersionString[];
